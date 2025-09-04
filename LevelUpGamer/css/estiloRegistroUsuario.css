@@ -1,0 +1,65 @@
+/* SOLO ESTILOS PARA CODIGOS */
+body {
+    margin: 0px;
+    height: 100%;
+}
+
+header h1 {
+    font-style: normal;
+    text-align: center;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+}
+
+
+
+
+
+/* SOLO ESTILOS PARA ID */
+
+/* Div de links entre paginas */
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+#exteriorRegistroUsuario {
+    font-style: normal;
+    justify-items: center;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+#formularioRegistroUsuario {
+    width: 50%;
+    border: solid 3px black;   /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+#formularioRegistro {
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+#tblRegistroUsuario {
+    width: 97%;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+
+
+
+/* SOLO ESTILOS DE CLASES */
+
+/* Esta clase se asegura de mantener separados los elementos para pantallas muy pequeñas */
+.claseSeparacionItems {
+    margin: 1%;
+}
+
+.inputRegistro {
+    width: 90%;
+    margin: 1%;
+}

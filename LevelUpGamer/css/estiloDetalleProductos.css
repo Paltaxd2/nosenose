@@ -1,0 +1,158 @@
+/* SOLO ESTILOS PARA CODIGOS */
+body {
+    margin: 0px;
+    height: 100%;
+}
+
+header h1 {
+    font-style: normal;
+    text-align: center;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+}
+
+
+
+
+
+/* SOLO ESTILOS PARA ID */
+
+/* Div de links entre paginas */
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+#divLimiteInfoDetalle {
+    display: flex;
+    justify-content: space-between;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+#divLimiteImagenDetalle {
+    align-content: center;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+#divLimiteImagenDetalle img {
+    width: 90%;
+    margin: 1%;
+}
+
+#divLimiteInfo {
+    align-content: center;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+#divInfoDetalle {
+    display: flex;
+    justify-content: space-between;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+#divDetallePrecio {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+#divDescproductos {
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+#descProdcutos {
+    /**/
+}
+
+#tablaCantidadproductos {
+    width: 90%;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+#aregloInputCant {
+    display: flex;
+    justify-content: space-between;
+}
+
+#inputCantProuctos {
+    width: 40%;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+
+
+
+/* SOLO ESTILOS DE CLASES */
+
+/* Esta clase se asegura de mantener separados los elementos para pantallas muy pequeñas */
+.claseSeparacionItems {
+    margin: 1%;
+}
+
+.inputProductos {
+    width: 90%;
+    margin: 1%;
+}
+
+
+
+
+
+/*AÑADIENDO PRODUCTOS*/
+.filasTiendaHome {
+    display: flex;
+    margin-right: auto;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+.articulosTiendaHome {
+    width: 23%;
+    justify-items: center;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+.divLimiteImagenTiendaHome{
+    width: 40%;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+.divLimiteDescripcionTiendaHome{
+    width: 40%;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+.imagenesTiendaHome {
+    width: 90%;
+    margin: 1%;
+}
+
+.ajusteTamaño {
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+.txtResposive {
+    font-size: 90%;
+    margin: 1%;
+}
+
+.nose {
+    font-size: 2vw;        
+    max-height: 6em;       
+    line-height: 2em;  
+}

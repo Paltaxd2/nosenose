@@ -1,0 +1,108 @@
+/* SOLO ESTILOS PARA CODIGOS */
+body {
+    margin: 0px;
+    height: 100%;
+}
+
+header h1 {
+    font-style: normal;
+    text-align: center;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+}
+
+
+
+
+
+/* SOLO ESTILOS PARA ID */
+
+/* Div de links entre paginas */
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+/* Div de inicio y registro de sesion */
+#loginMenu {
+    display: flex;
+    justify-content: flex-end;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+/* Div para el texto y imagen de la tienda en home */
+#bienvenidaTiendaHome {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+#bienvenidaTiendaHome img {
+    height: 25%;
+    width: 35%;
+}
+
+#tiendaHome {
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+
+
+
+
+
+
+/* SOLO ESTILOS DE CLASES */
+
+/* Esta clase se asegura de mantener separados los elementos para pantallas muy pequeñas */
+.claseSeparacionItems {
+    margin: 1%;
+}
+
+.imagenPortada {
+    height: 45%;
+    width: 55%;
+    margin: 1%;
+}
+
+.filasTiendaHome {
+    display: flex;
+    margin-right: auto;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+.articulosTiendaHome {
+    width: 23%;
+    justify-items: center;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+.divLimiteImagenTiendaHome{
+    width: 40%;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+.divLimiteDescripcionTiendaHome{
+    width: 40%;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+.imagenesTiendaHome {
+    width: 90%;
+    margin: 1%;
+}
+
+.ajusteTamaño {
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}

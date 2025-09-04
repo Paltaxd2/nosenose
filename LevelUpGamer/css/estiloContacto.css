@@ -1,0 +1,104 @@
+/* SOLO ESTILOS PARA CODIGOS */
+body {
+    margin: 0px;
+    height: 100%;
+}
+
+header h1 {
+    font-style: normal;
+    text-align: center;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+}
+
+
+
+
+
+/* SOLO ESTILOS PARA ID */
+
+/* Div de links entre paginas */
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+#menu p {
+    font-size: 2vw;        
+    max-height: 6em;       
+    line-height: 2em;  
+}
+
+#menu a {
+    font-size: 2vw;        
+    max-height: 6em;       
+    line-height: 2em;  
+}
+
+#divExteriorImagenPortada {
+    justify-items: center;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+#divLimitePortada {
+    width: 40%;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+#imagenPortada {
+    width: 90%;
+    margin: 1%;
+}
+
+#divTxtEmpresaPortadaContacto {
+    width: 20%;
+    justify-items: center;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+#divTxtEmpresaPortadaContacto h2 {
+    font-size: 2vw;        
+    max-height: 6em;       
+    line-height: 2em;  
+    margin: 1%;
+}
+
+#divLimiteFormularioContacto {
+    justify-items: center;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+#limiteFormContacto {
+    width: 50%;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+#tablaFormularioContacto {
+    width: 96%;
+    border: solid 3px black; /* Esto es para ver los limites del Div , luego se debe borrar*/
+    margin: 1%;
+}
+
+
+
+
+
+
+/* SOLO ESTILOS DE CLASES */
+
+/* Esta clase se asegura de mantener separados los elementos para pantallas muy pequeñas */
+.claseSeparacionItems {
+    margin: 1%;
+}
+
+.claseInputContacto {
+    width: 90%;
+    margin: 1%;
+}
